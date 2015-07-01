@@ -2,6 +2,10 @@ dnstwist
 ========
 See what sort of trouble users can get in trying to type your domain name. Look for registered domains similar to your own, only distinguished by [typos](https://en.wikipedia.org/wiki/Typosquatting) (or cosmic ray). Useful as an additional source of targeted threat intelligence. Can detect fraud, phishing attacks and corporate espionage.
 
+Credit
+------
+Original code created and distribuited by Marcin Ulikowski (https://github.com/elceef/dnstwist). The changes I made were simply to add a date/time stamp to the beginning of each line.
+
 Required modules
 ----------------
 If you want *dnstwist* to develop full power, please make sure the following Python modules are present on your system. If missing, *dnstwist* will still work, but without some cool features.
@@ -27,7 +31,7 @@ Special thanks
 
 Contact
 -------
-To send questions, comments or a chocolate, just drop an e-mail at [peasead@gmail.com](mailto:peasead@gmail.com)
+To send questions or comments, send an e-mail at [peasead@gmail.com](mailto:peasead@gmail.com)
 
 Example report
 --------------
