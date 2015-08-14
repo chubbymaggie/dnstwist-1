@@ -196,12 +196,12 @@ def main():
 		output_csv = False
 
 	if not output_csv:
-		print('dnstwist (' + __version__ + ') by ' + __email__)
+		print('dnstwist (' + __version__ + ') by ' + __author__)
 
 		if len(sys.argv) < 2:
 			print('Usage: ' + sys.argv[0] + ' example.com [csv]')
 			sys.exit()
-	
+
 	if not validate_domain(sys.argv[1]):
 		sys.stderr.write('ERROR: invalid domain name !\n')
 		sys.exit(-1)
