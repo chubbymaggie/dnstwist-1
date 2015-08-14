@@ -13,6 +13,24 @@ If you want *dnstwist* to develop full power, please make sure the following Pyt
 * [Python GeoIP](https://pypi.python.org/pypi/GeoIP/)
 * [A DNS toolkit for Python](http://www.dnspython.org/)
 
+Dependency installation
+----------------
+*GeoIP*
+```
+brew install geoip
+sudo pip install geoip
+curl -O http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+gunzip GeoIP.dat.gz
+cp GeoIP.dat /usr/local/var/GeoIP/
+```
+*DNSPython*
+```
+curl -O http://www.dnspython.org/kits/1.12.0/dnspython-1.12.0.tar.gz
+tar zxf dnspython-1.12.0.tar.gz
+cd dnspython-1.12.0
+python ./setup.py build
+python ./setup.py install
+```
 Articles and blog posts on using dnstwist
 -----------------------------------------
 * [Security List Network: DNSTWIST - Generate and resolve domain variation to detect typo squatting, phising and corporate espionage](http://seclist.us/dnstwist-generate-and-resolve-domain-variations-to-detect-typo-squatting-phishing-and-corporate-espionage.html)
