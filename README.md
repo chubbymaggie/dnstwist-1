@@ -4,7 +4,7 @@ See what sort of trouble users can get in trying to type your domain name. Look 
 
 Credit
 ------
-Original code created and distribuited by Marcin Ulikowski (https://github.com/elceef/dnstwist). The changes I made were simply to add a date/time stamp to the beginning of each line.
+Original code created and distribuited by Marcin Ulikowski (https://github.com/elceef/dnstwist). The changes I made were to add a date/time stamp to the beginning of each line and some additional formatting.
 
 Required modules
 ----------------
@@ -45,7 +45,7 @@ Special thanks
 * Christopher Schmidt
 * James Lane
 * Piotr Chmyłkowski
-* Marcin Ulikowski (original code - https://github.com/elceef/dnstwist)
+* Marcin Ulikowski
 
 Contact
 -------
