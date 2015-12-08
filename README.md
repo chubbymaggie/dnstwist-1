@@ -17,7 +17,7 @@ Dependency installation
 ----------------
 *GeoIP*
 ```
-brew install geoip
+brew install geoip <-- OS X only
 sudo pip install geoip
 curl -O http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
 gunzip GeoIP.dat.gz
@@ -31,6 +31,12 @@ cd dnspython-1.12.0
 python ./setup.py build
 python ./setup.py install
 ```
+Usage
+----------------
+```
+$ ./dnstwist.py <domain>
+```
+
 Articles and blog posts on using dnstwist
 -----------------------------------------
 * [Security List Network: DNSTWIST - Generate and resolve domain variation to detect typo squatting, phising and corporate espionage](http://seclist.us/dnstwist-generate-and-resolve-domain-variations-to-detect-typo-squatting-phishing-and-corporate-espionage.html)
