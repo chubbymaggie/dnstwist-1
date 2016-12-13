@@ -29,7 +29,7 @@ curl -O http://www.dnspython.org/kits/1.12.0/dnspython-1.12.0.tar.gz
 tar zxf dnspython-1.12.0.tar.gz
 cd dnspython-1.12.0
 python ./setup.py build
-python ./setup.py install
+sudo python ./setup.py install
 ```
 Usage
 ----------------
